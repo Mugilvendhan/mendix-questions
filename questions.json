@@ -1,603 +1,805 @@
-[
-  {
-    "topic": "Project roles & responsibilities",
-    "question": "What is the primary responsibility of a Business Engineer in a Mendix project?",
-    "options": [
-      "Writing complex Java actions",
-      "Designing the user interface and implementing business logic",
-      "Managing server infrastructure",
-      "Database administration"
-    ]
-  },
-  {
-    "topic": "Project roles & responsibilities",
-    "question": "Which role is responsible for defining the technical architecture in a Mendix project?",
-    "options": [
-      "Business Engineer",
-      "Technical Lead/Architect",
-      "Scrum Master",
-      "End User"
-    ]
-  },
-  {
-    "topic": "Project roles & responsibilities",
-    "question": "What is the main difference between a Business Engineer and a Technical Lead role?",
-    "options": [
-      "Business Engineers work on frontend only",
-      "Technical Leads focus on architecture while Business Engineers implement features",
-      "There is no difference",
-      "Business Engineers handle deployment"
-    ]
-  },
-  {
-    "topic": "XPath constraints",
-    "question": "Which XPath expression correctly retrieves all Customer entities where the Name attribute contains \"John\"?",
-    "options": [
-      "[Name = \"John\"]",
-      "[contains(Name, \"John\")]",
-      "[Name contains \"John\"]",
-      "[substring(Name, \"John\")]"
-    ]
-  },
-  {
-    "topic": "XPath constraints",
-    "question": "What does the XPath expression [Age >= 18 and Age <= 65] represent?",
-    "options": [
-      "Age is exactly 18 or 65",
-      "Age is between 18 and 65 (inclusive)",
-      "Age is greater than 18 or less than 65",
-      "Invalid XPath expression"
-    ]
-  },
-  {
-    "topic": "XPath constraints",
-    "question": "Which XPath function is used to get the current date and time?",
-    "options": [
-      "now()",
-      "today()",
-      "currentDateTime()",
-      "getDate()"
-    ]
-  },
-  {
-    "topic": "Page design with Atlas UI",
-    "question": "What is the primary benefit of using Atlas UI in Mendix applications?",
-    "options": [
-      "Faster database queries",
-      "Consistent design system and responsive layouts",
-      "Better security features",
-      "Improved microflow performance"
-    ]
-  },
-  {
-    "topic": "Page design with Atlas UI",
-    "question": "Which Atlas UI building block is best suited for displaying a list of items with actions?",
-    "options": [
-      "Cards",
-      "Gallery",
-      "List View",
-      "Data Grid"
-    ]
-  },
-  {
-    "topic": "Page design with Atlas UI",
-    "question": "What is the purpose of Atlas UI building blocks?",
-    "options": [
-      "To create custom Java actions",
-      "To provide pre-configured UI components with styling",
-      "To manage database connections",
-      "To handle user authentication"
-    ]
-  },
-  {
-    "topic": "Project directory structure",
-    "question": "In a Mendix project, where are the domain models typically stored?",
-    "options": [
-      "In the Resources folder",
-      "In each module's Domain Model section",
-      "In the Styling folder",
-      "In the Settings folder"
-    ]
-  },
-  {
-    "topic": "Project directory structure",
-    "question": "What is the purpose of the Resources folder in a Mendix project?",
-    "options": [
-      "To store microflows",
-      "To store images, documents, and other static files",
-      "To store domain models",
-      "To store security settings"
-    ]
-  },
-  {
-    "topic": "Project directory structure",
-    "question": "Which folder contains the styling and theme files in a Mendix project?",
-    "options": [
-      "Resources",
-      "Styling",
-      "Theme",
-      "Assets"
-    ]
-  },
-  {
-    "topic": "Sub-microflows",
-    "question": "What is the primary purpose of using sub-microflows in Mendix?",
-    "options": [
-      "To improve performance",
-      "To create reusable logic and improve maintainability",
-      "To handle user interface events",
-      "To manage database connections"
-    ]
-  },
-  {
-    "topic": "Sub-microflows",
-    "question": "How do you pass data to a sub-microflow?",
-    "options": [
-      "Through global variables",
-      "Through parameters",
-      "Through the database",
-      "Through session variables"
-    ]
-  },
-  {
-    "topic": "Sub-microflows",
-    "question": "What happens when a sub-microflow encounters an error?",
-    "options": [
-      "The error is ignored",
-      "The error bubbles up to the calling microflow",
-      "The application crashes",
-      "The sub-microflow restarts automatically"
-    ]
-  },
-  {
-    "topic": "Rules",
-    "question": "What is the primary purpose of Rules in Mendix?",
-    "options": [
-      "To define database schemas",
-      "To create reusable expressions and decision logic",
-      "To handle user authentication",
-      "To manage page layouts"
-    ]
-  },
-  {
-    "topic": "Rules",
-    "question": "Where can Rules be used in a Mendix application?",
-    "options": [
-      "Only in microflows",
-      "Only in pages",
-      "In microflows, pages, and domain models",
-      "Only in domain models"
-    ]
-  },
-  {
-    "topic": "Rules",
-    "question": "What type of value do Rules return?",
-    "options": [
-      "Always Boolean",
-      "Always String",
-      "Any data type based on the rule definition",
-      "Always Integer"
-    ]
-  },
-  {
-    "topic": "System members",
-    "question": "Which system member tracks when an entity was created?",
-    "options": [
-      "changedDate",
-      "createdDate",
-      "owner",
-      "changedBy"
-    ]
-  },
-  {
-    "topic": "System members",
-    "question": "What is the purpose of the \"owner\" system member?",
-    "options": [
-      "To track creation date",
-      "To store the user who owns/created the entity",
-      "To store modification date",
-      "To store entity version"
-    ]
-  },
-  {
-    "topic": "System members",
-    "question": "Which system member is updated every time an entity is modified?",
-    "options": [
-      "createdDate",
-      "owner",
-      "changedDate",
-      "id"
-    ]
-  },
-[
-  {
-    "topic": "List operations",
-    "question": "Which microflow activity is used to add an object to a list?",
-    "options": [
-      "Create list",
-      "Add to list",
-      "Change list",
-      "List operation"
-    ]
-  },
-  {
-    "topic": "List operations",
-    "question": "What does the \"List operation\" activity with \"Union\" do?",
-    "options": [
-      "Removes duplicates from a list",
-      "Combines two lists into one",
-      "Sorts a list",
-      "Filters a list"
-    ]
-  },
-  {
-    "topic": "List operations",
-    "question": "Which list operation removes duplicate entries from a list?",
-    "options": [
-      "Union",
-      "Intersect",
-      "Subtract",
-      "Distinct"
-    ]
-  },
-  {
-    "topic": "Client notifications",
-    "question": "Which microflow activity is used to show a message to the user?",
-    "options": [
-      "Show page",
-      "Show message",
-      "Log message",
-      "Send notification"
-    ]
-  },
-  {
-    "topic": "Client notifications",
-    "question": "What are the different types of messages that can be shown to users?",
-    "options": [
-      "Only error messages",
-      "Information, Warning, and Error",
-      "Only success messages",
-      "Only warning messages"
-    ]
-  },
-  {
-    "topic": "Client notifications",
-    "question": "Where do validation messages appear in the user interface?",
-    "options": [
-      "In a separate popup window",
-      "Near the relevant input fields",
-      "In the browser console",
-      "In the system log"
-    ]
-  },
-  {
-    "topic": "Multi-lingual front-end",
-    "question": "How are text translations managed in Mendix applications?",
-    "options": [
-      "Through database tables",
-      "Through Language Operations and text templates",
-      "Through external files only",
-      "Through custom Java code"
-    ]
-  },
-  {
-    "topic": "Multi-lingual front-end",
-    "question": "What is the purpose of the \"Get current language\" function?",
-    "options": [
-      "To set the user's language preference",
-      "To retrieve the currently active language code",
-      "To translate text",
-      "To change the application language"
-    ]
-  },
-  {
-    "topic": "Multi-lingual front-end",
-    "question": "Where are language-specific text constants defined?",
-    "options": [
-      "In the domain model",
-      "In the Language Settings and text templates",
-      "In microflows only",
-      "In the database"
-    ]
-  },
-  {
-    "topic": "Anonymous users",
-    "question": "What is required to enable anonymous access in a Mendix application?",
-    "options": [
-      "No special configuration needed",
-      "Enable anonymous users in App Security and assign appropriate roles",
-      "Create a special database table",
-      "Write custom Java code"
-    ]
-  },
-  {
-    "topic": "Anonymous users",
-    "question": "What limitations do anonymous users typically have?",
-    "options": [
-      "They cannot access any pages",
-      "They have restricted access based on their assigned anonymous role",
-      "They can access everything",
-      "They can only view the login page"
-    ]
-  },
-  {
-    "topic": "Anonymous users",
-    "question": "How can an anonymous user session be converted to an authenticated session?",
-    "options": [
-      "It's not possible",
-      "Through login process that authenticates the user",
-      "Automatically after 5 minutes",
-      "By refreshing the page"
-    ]
-  },
-  {
-    "topic": "Security",
-    "question": "What are the main components of Mendix application security?",
-    "options": [
-      "Only user authentication",
-      "Authentication, authorization, and data access rules",
-      "Only password policies",
-      "Only SSL certificates"
-    ]
-  },
-  {
-    "topic": "Security",
-    "question": "What is the purpose of entity access rules?",
-    "options": [
-      "To define database structure",
-      "To control which users can access which data",
-      "To improve application performance",
-      "To manage user interface layout"
-    ]
-  },
-  {
-    "topic": "Security",
-    "question": "What happens when a user doesn't have permission to access a microflow?",
-    "options": [
-      "The microflow runs with limited functionality",
-      "An error is thrown and the microflow doesn't execute",
-      "The microflow runs normally",
-      "The user is logged out"
-    ]
-  },
-  {
-    "topic": "XPath constraints",
-    "question": "Which XPath expression retrieves entities where the associated Customer's City is \"New York\"?",
-    "options": [
-      "[Customer/City = \"New York\"]",
-      "[Customer.City = \"New York\"]",
-      "[Customer->City = \"New York\"]",
-      "[Customer[City = \"New York\"]]"
-    ]
-  },
-  {
-    "topic": "Page design with Atlas UI",
-    "question": "What is the benefit of using responsive design in Atlas UI?",
-    "options": [
-      "Faster loading times",
-      "Better database performance",
-      "Optimal display across different screen sizes",
-      "Enhanced security"
-    ]
-  },
-  {
-    "topic": "Sub-microflows",
-    "question": "What is the maximum number of parameters a sub-microflow can have?",
-    "options": [
-      "5 parameters",
-      "10 parameters",
-      "No practical limit",
-      "20 parameters"
-    ]
-  },
-  {
-    "topic": "Rules",
-    "question": "Can Rules have parameters?",
-    "options": [
-      "No, Rules cannot have parameters",
-      "Yes, Rules can have parameters",
-      "Only Boolean parameters",
-      "Only String parameters"
-    ]
-  },
-  {
-    "topic": "System members",
-    "question": "Which system member contains a unique identifier for each entity instance?",
-    "options": [
-      "createdDate",
-      "owner",
-      "id",
-      "changedBy"
-    ]
-  },
-  {
-    "topic": "List operations",
-    "question": "What does the \"Intersect\" list operation do?",
-    "options": [
-      "Combines two lists",
-      "Returns elements that exist in both lists",
-      "Removes elements from a list",
-      "Sorts a list"
-    ]
-  },
-  {
-    "topic": "Client notifications",
-    "question": "What is the difference between \"Show message\" and \"Validation feedback\"?",
-    "options": [
-      "They are the same",
-      "Show message is for general notifications, validation feedback is for form validation",
-      "Show message is for errors only",
-      "Validation feedback is for success messages only"
-    ]
-  },
-  {
-    "topic": "Multi-lingual front-end",
-    "question": "How can you dynamically change the language in a Mendix application?",
-    "options": [
-      "It's not possible",
-      "Using the \"Change language\" action in microflows",
-      "Only through browser settings",
-      "Only at application startup"
-    ]
-  },
-  {
-    "topic": "Anonymous users",
-    "question": "Can anonymous users create data in the database?",
-    "options": [
-      "Never",
-      "Only if their role has create permissions for specific entities",
-      "Always",
-      "Only temporary data"
-    ]
-  },
-  {
-    "topic": "Security",
-    "question": "What is the purpose of module security in Mendix?",
-    "options": [
-      "To encrypt data",
-      "To control access to microflows, pages, and entities within a module",
-      "To manage user passwords",
-      "To handle SSL certificates"
-    ]
-  },
-  {
-    "topic": "Project roles & responsibilities",
-    "question": "Who typically handles the deployment and DevOps aspects of a Mendix project?",
-    "options": [
-      "Business Engineer",
-      "End User",
-      "DevOps Engineer or Technical Lead",
-      "Scrum Master"
-    ]
-  },
-  {
-    "topic": "Project directory structure",
-    "question": "What is stored in the \"userlib\" folder of a Mendix project?",
-    "options": [
-      "User-created pages",
-      "Custom Java libraries and JAR files",
-      "User documentation",
-      "User roles and permissions"
-    ]
-  },
-  {
-    "topic": "XPath constraints",
-    "question": "Which XPath function returns the number of days between two dates?",
-    "options": [
-      "dateDiff()",
-      "daysBetween()",
-      "calculateDays()",
-      "daysFromNowOn()"
-    ]
-  },
-  {
-    "topic": "Page design with Atlas UI",
-    "question": "What is the purpose of Atlas UI design properties?",
-    "options": [
-      "To define database relationships",
-      "To customize the appearance and behavior of UI elements",
-      "To manage user authentication",
-      "To configure server settings"
-    ]
-  },
-  {
-    "topic": "Security",
-    "question": "What is the difference between module roles and user roles?",
-    "options": [
-      "They are the same thing",
-      "Module roles define permissions within a module, user roles are assigned to actual users",
-      "Module roles are for developers only",
-      "User roles are temporary"
-    ]
-  },
-  {
-    "topic": "List operations",
-    "question": "What is the purpose of the \"Sort list\" activity?",
-    "options": [
-      "To remove duplicates",
-      "To arrange list items in a specific order",
-      "To filter list items",
-      "To count list items"
-    ]
-  },
-  {
-    "topic": "Sub-microflows",
-    "question": "What is the return type of a sub-microflow that doesn't explicitly return a value?",
-    "options": [
-      "Boolean",
-      "String",
-      "Nothing (void)",
-      "Integer"
-    ]
-  },
-  {
-    "topic": "System members",
-    "question": "What data type is the \"id\" system member?",
-    "options": [
-      "Integer",
-      "String",
-      "Long",
-      "AutoNumber"
-    ]
-  },
-  {
-    "topic": "Client notifications",
-    "question": "Can you customize the appearance of message dialogs in Mendix?",
-    "options": [
-      "No, they are fixed",
-      "Yes, through CSS and theming",
-      "Only the text content",
-      "Only the buttons"
-    ]
-  },
-  {
-    "topic": "Multi-lingual front-end",
-    "question": "What happens if a text constant is not translated for a specific language?",
-    "options": [
-      "The application crashes",
-      "An error is displayed",
-      "The default language text is used",
-      "An empty string is shown"
-    ]
-  },
-  {
-    "topic": "Anonymous users",
-    "question": "How many anonymous user sessions can be active simultaneously?",
-    "options": [
-      "Only one",
-      "Up to 10",
-      "No limit (subject to server capacity)",
-      "Up to 100"
-    ]
-  },
-  {
-    "topic": "Rules",
-    "question": "In which context can Rules NOT be used?",
-    "options": [
-      "In conditional formatting",
-      "In validation rules",
-      "In database triggers",
-      "In microflow decisions"
-    ]
-  },
-  {
-    "topic": "Project directory structure",
-    "question": "What is the purpose of the \"deployment\" folder in a Mendix project?",
-    "options": [
-      "To store source code",
-      "To store deployment artifacts and configuration",
-      "To store user documentation",
-      "To store database scripts"
-    ]
-  },
-  {
-    "topic": "XPath constraints",
-    "question": "Which XPath expression checks if a DateTime attribute is within the current month?",
-    "options": [
-      "[month-from-dateTime(DateAttribute) = month-from-dateTime(now())]",
-      "[DateAttribute = currentMonth()]",
-      "[month(DateAttribute) = month(now())]",
-      "[DateAttribute in currentMonth()]"
-    ]
-  }
-]
+ {
+      id: 1,
+      topic: 'Project roles & responsibilities',
+      question: 'What is the primary responsibility of a Business Engineer in a Mendix project?',
+      options: [
+        'Writing complex Java actions',
+        'Designing the user interface and implementing business logic',
+        'Managing server infrastructure',
+        'Database administration'
+      ],
+      correct: 1,
+      explanation: 'Business Engineers focus on UI design and business logic implementation using Mendix Studio Pro.'
+    },
+    {
+      id: 2,
+      topic: 'Project roles & responsibilities',
+      question: 'Which role is responsible for defining the technical architecture in a Mendix project?',
+      options: [
+        'Business Engineer',
+        'Technical Lead/Architect',
+        'Scrum Master',
+        'End User'
+      ],
+      correct: 1,
+      explanation: 'Technical Lead/Architect defines the overall technical architecture and standards.'
+    },
+    {
+      id: 3,
+      topic: 'Project roles & responsibilities',
+      question: 'What is the main difference between a Business Engineer and a Technical Lead role?',
+      options: [
+        'Business Engineers work on frontend only',
+        'Technical Leads focus on architecture while Business Engineers implement features',
+        'There is no difference',
+        'Business Engineers handle deployment'
+      ],
+      correct: 1,
+      explanation: 'Technical Leads focus on architecture and technical decisions, while Business Engineers implement business features.'
+    },
+
+    // XPath constraints
+    {
+      id: 4,
+      topic: 'XPath constraints',
+      question: 'Which XPath expression correctly retrieves all Customer entities where the Name attribute contains "John"?',
+      options: [
+        '[Name = "John"]',
+        '[contains(Name, "John")]',
+        '[Name contains "John"]',
+        '[substring(Name, "John")]'
+      ],
+      correct: 1,
+      explanation: 'The contains() function is the correct XPath function to check if a string contains a substring.'
+    },
+    {
+      id: 5,
+      topic: 'XPath constraints',
+      question: 'What does the XPath expression [Age >= 18 and Age <= 65] represent?',
+      options: [
+        'Age is exactly 18 or 65',
+        'Age is between 18 and 65 (inclusive)',
+        'Age is greater than 18 or less than 65',
+        'Invalid XPath expression'
+      ],
+      correct: 1,
+      explanation: 'The "and" operator with >= and <= creates an inclusive range constraint.'
+    },
+    {
+      id: 6,
+      topic: 'XPath constraints',
+      question: 'Which XPath function is used to get the current date and time?',
+      options: [
+        'now()',
+        'today()',
+        'currentDateTime()',
+        'getDate()'
+      ],
+      correct: 0,
+      explanation: 'now() is the XPath function that returns the current date and time.'
+    },
+
+    // Page design with Atlas UI
+    {
+      id: 7,
+      topic: 'Page design with Atlas UI',
+      question: 'What is the primary benefit of using Atlas UI in Mendix applications?',
+      options: [
+        'Faster database queries',
+        'Consistent design system and responsive layouts',
+        'Better security features',
+        'Improved microflow performance'
+      ],
+      correct: 1,
+      explanation: 'Atlas UI provides a consistent design system with pre-built responsive components.'
+    },
+    {
+      id: 8,
+      topic: 'Page design with Atlas UI',
+      question: 'Which Atlas UI building block is best suited for displaying a list of items with actions?',
+      options: [
+        'Cards',
+        'Gallery',
+        'List View',
+        'Data Grid'
+      ],
+      correct: 2,
+      explanation: 'List View building block is specifically designed for displaying lists with interactive elements.'
+    },
+    {
+      id: 9,
+      topic: 'Page design with Atlas UI',
+      question: 'What is the purpose of Atlas UI building blocks?',
+      options: [
+        'To create custom Java actions',
+        'To provide pre-configured UI components with styling',
+        'To manage database connections',
+        'To handle user authentication'
+      ],
+      correct: 1,
+      explanation: 'Atlas UI building blocks are pre-configured UI components that speed up development with consistent styling.'
+    },
+
+    // Project directory structure
+    {
+      id: 10,
+      topic: 'Project directory structure',
+      question: 'In a Mendix project, where are the domain models typically stored?',
+      options: [
+        'In the Resources folder',
+        'In each module\'s Domain Model section',
+        'In the Styling folder',
+        'In the Settings folder'
+      ],
+      correct: 1,
+      explanation: 'Each module has its own Domain Model section where entities and their relationships are defined.'
+    },
+    {
+      id: 11,
+      topic: 'Project directory structure',
+      question: 'What is the purpose of the Resources folder in a Mendix project?',
+      options: [
+        'To store microflows',
+        'To store images, documents, and other static files',
+        'To store domain models',
+        'To store security settings'
+      ],
+      correct: 1,
+      explanation: 'Resources folder contains static files like images, documents, and other assets used in the application.'
+    },
+    {
+      id: 12,
+      topic: 'Project directory structure',
+      question: 'Which folder contains the styling and theme files in a Mendix project?',
+      options: [
+        'Resources',
+        'Styling',
+        'Theme',
+        'Assets'
+      ],
+      correct: 1,
+      explanation: 'The Styling folder contains CSS files and theme-related styling configurations.'
+    },
+
+    // Sub-microflows
+    {
+      id: 13,
+      topic: 'Sub-microflows',
+      question: 'What is the primary purpose of using sub-microflows in Mendix?',
+      options: [
+        'To improve performance',
+        'To create reusable logic and improve maintainability',
+        'To handle user interface events',
+        'To manage database connections'
+      ],
+      correct: 1,
+      explanation: 'Sub-microflows promote code reusability and make complex logic more maintainable by breaking it into smaller, focused units.'
+    },
+    {
+      id: 14,
+      topic: 'Sub-microflows',
+      question: 'How do you pass data to a sub-microflow?',
+      options: [
+        'Through global variables',
+        'Through parameters',
+        'Through the database',
+        'Through session variables'
+      ],
+      correct: 1,
+      explanation: 'Sub-microflows receive data through parameters that are defined when calling the sub-microflow.'
+    },
+    {
+      id: 15,
+      topic: 'Sub-microflows',
+      question: 'What happens when a sub-microflow encounters an error?',
+      options: [
+        'The error is ignored',
+        'The error bubbles up to the calling microflow',
+        'The application crashes',
+        'The sub-microflow restarts automatically'
+      ],
+      correct: 1,
+      explanation: 'Errors in sub-microflows bubble up to the calling microflow, where they can be handled appropriately.'
+    },
+
+    // Rules
+    {
+      id: 16,
+      topic: 'Rules',
+      question: 'What is the primary purpose of Rules in Mendix?',
+      options: [
+        'To define database schemas',
+        'To create reusable expressions and decision logic',
+        'To handle user authentication',
+        'To manage page layouts'
+      ],
+      correct: 1,
+      explanation: 'Rules in Mendix are used to create reusable expressions and decision logic that can be used across the application.'
+    },
+    {
+      id: 17,
+      topic: 'Rules',
+      question: 'Where can Rules be used in a Mendix application?',
+      options: [
+        'Only in microflows',
+        'Only in pages',
+        'In microflows, pages, and domain models',
+        'Only in domain models'
+      ],
+      correct: 2,
+      explanation: 'Rules can be used in various places including microflows, pages, and domain model validation.'
+    },
+    {
+      id: 18,
+      topic: 'Rules',
+      question: 'What type of value do Rules return?',
+      options: [
+        'Always Boolean',
+        'Always String',
+        'Any data type based on the rule definition',
+        'Always Integer'
+      ],
+      correct: 2,
+      explanation: 'Rules can return different data types depending on how they are defined and what they calculate.'
+    },
+
+    // System members
+    {
+      id: 19,
+      topic: 'System members',
+      question: 'Which system member tracks when an entity was created?',
+      options: [
+        'changedDate',
+        'createdDate',
+        'owner',
+        'changedBy'
+      ],
+      correct: 1,
+      explanation: 'createdDate is the system member that automatically tracks when an entity instance was created.'
+    },
+    {
+      id: 20,
+      topic: 'System members',
+      question: 'What is the purpose of the "owner" system member?',
+      options: [
+        'To track creation date',
+        'To store the user who owns/created the entity',
+        'To store modification date',
+        'To store entity version'
+      ],
+      correct: 1,
+      explanation: 'The owner system member stores a reference to the user who created the entity instance.'
+    },
+    {
+      id: 21,
+      topic: 'System members',
+      question: 'Which system member is updated every time an entity is modified?',
+      options: [
+        'createdDate',
+        'owner',
+        'changedDate',
+        'id'
+      ],
+      correct: 2,
+      explanation: 'changedDate is automatically updated every time an entity instance is modified.'
+    },
+
+    // List operations
+    {
+      id: 22,
+      topic: 'List operations',
+      question: 'Which microflow activity is used to add an object to a list?',
+      options: [
+        'Create list',
+        'Add to list',
+        'Change list',
+        'List operation'
+      ],
+      correct: 1,
+      explanation: 'The "Add to list" activity is specifically used to add objects to an existing list.'
+    },
+    {
+      id: 23,
+      topic: 'List operations',
+      question: 'What does the "List operation" activity with "Union" do?',
+      options: [
+        'Removes duplicates from a list',
+        'Combines two lists into one',
+        'Sorts a list',
+        'Filters a list'
+      ],
+      correct: 1,
+      explanation: 'Union operation combines two lists into one, including all elements from both lists.'
+    },
+    {
+      id: 24,
+      topic: 'List operations',
+      question: 'Which list operation removes duplicate entries from a list?',
+      options: [
+        'Union',
+        'Intersect',
+        'Subtract',
+        'Distinct'
+      ],
+      correct: 3,
+      explanation: 'The Distinct operation removes duplicate entries, leaving only unique elements in the list.'
+    },
+
+    // Client notifications
+    {
+      id: 25,
+      topic: 'Client notifications',
+      question: 'Which microflow activity is used to show a message to the user?',
+      options: [
+        'Show page',
+        'Show message',
+        'Log message',
+        'Send notification'
+      ],
+      correct: 1,
+      explanation: 'The "Show message" activity displays a message dialog to the user in the client.'
+    },
+    {
+      id: 26,
+      topic: 'Client notifications',
+      question: 'What are the different types of messages that can be shown to users?',
+      options: [
+        'Only error messages',
+        'Information, Warning, and Error',
+        'Only success messages',
+        'Only warning messages'
+      ],
+      correct: 1,
+      explanation: 'Mendix supports Information, Warning, and Error message types for different notification purposes.'
+    },
+    {
+      id: 27,
+      topic: 'Client notifications',
+      question: 'Where do validation messages appear in the user interface?',
+      options: [
+        'In a separate popup window',
+        'Near the relevant input fields',
+        'In the browser console',
+        'In the system log'
+      ],
+      correct: 1,
+      explanation: 'Validation messages appear near the relevant input fields to provide contextual feedback.'
+    },
+
+    // Multi-lingual front-end
+    {
+      id: 28,
+      topic: 'Multi-lingual front-end',
+      question: 'How are text translations managed in Mendix applications?',
+      options: [
+        'Through database tables',
+        'Through Language Operations and text templates',
+        'Through external files only',
+        'Through custom Java code'
+      ],
+      correct: 1,
+      explanation: 'Mendix uses Language Operations and text templates to manage translations for multi-lingual applications.'
+    },
+    {
+      id: 29,
+      topic: 'Multi-lingual front-end',
+      question: 'What is the purpose of the "Get current language" function?',
+      options: [
+        'To set the user\'s language preference',
+        'To retrieve the currently active language code',
+        'To translate text',
+        'To change the application language'
+      ],
+      correct: 1,
+      explanation: 'The "Get current language" function returns the language code that is currently active for the user session.'
+    },
+    {
+      id: 30,
+      topic: 'Multi-lingual front-end',
+      question: 'Where are language-specific text constants defined?',
+      options: [
+        'In the domain model',
+        'In the Language Settings and text templates',
+        'In microflows only',
+        'In the database'
+      ],
+      correct: 1,
+      explanation: 'Language-specific text constants are defined in Language Settings and can be used in text templates.'
+    },
+
+    // Anonymous users
+    {
+      id: 31,
+      topic: 'Anonymous users',
+      question: 'What is required to enable anonymous access in a Mendix application?',
+      options: [
+        'No special configuration needed',
+        'Enable anonymous users in App Security and assign appropriate roles',
+        'Create a special database table',
+        'Write custom Java code'
+      ],
+      correct: 1,
+      explanation: 'Anonymous access requires enabling anonymous users in App Security and assigning appropriate user roles.'
+    },
+    {
+      id: 32,
+      topic: 'Anonymous users',
+      question: 'What limitations do anonymous users typically have?',
+      options: [
+        'They cannot access any pages',
+        'They have restricted access based on their assigned anonymous role',
+        'They can access everything',
+        'They can only view the login page'
+      ],
+      correct: 1,
+      explanation: 'Anonymous users are restricted by the permissions assigned to their anonymous role in the security settings.'
+    },
+    {
+      id: 33,
+      topic: 'Anonymous users',
+      question: 'How can an anonymous user session be converted to an authenticated session?',
+      options: [
+        'It\'s not possible',
+        'Through login process that authenticates the user',
+        'Automatically after 5 minutes',
+        'By refreshing the page'
+      ],
+      correct: 1,
+      explanation: 'Anonymous users can become authenticated users through the login process, which transitions their session.'
+    },
+
+    // Security
+    {
+      id: 34,
+      topic: 'Security',
+      question: 'What are the main components of Mendix application security?',
+      options: [
+        'Only user authentication',
+        'Authentication, authorization, and data access rules',
+        'Only password policies',
+        'Only SSL certificates'
+      ],
+      correct: 1,
+      explanation: 'Mendix security includes authentication (who you are), authorization (what you can do), and data access rules.'
+    },
+    {
+      id: 35,
+      topic: 'Security',
+      question: 'What is the purpose of entity access rules?',
+      options: [
+        'To define database structure',
+        'To control which users can access which data',
+        'To improve application performance',
+        'To manage user interface layout'
+      ],
+      correct: 1,
+      explanation: 'Entity access rules define what data users can read, write, or delete based on their roles.'
+    },
+    {
+      id: 36,
+      topic: 'Security',
+      question: 'What happens when a user doesn\'t have permission to access a microflow?',
+      options: [
+        'The microflow runs with limited functionality',
+        'An error is thrown and the microflow doesn\'t execute',
+        'The microflow runs normally',
+        'The user is logged out'
+      ],
+      correct: 1,
+      explanation: 'When a user lacks permission to access a microflow, an error is thrown and the microflow is not executed.'
+    },
+
+    // Additional questions to reach 60-70 pool
+    {
+      id: 37,
+      topic: 'XPath constraints',
+      question: 'Which XPath expression retrieves entities where the associated Customer\'s City is "New York"?',
+      options: [
+        '[Customer/City = "New York"]',
+        '[Customer.City = "New York"]',
+        '[Customer->City = "New York"]',
+        '[Customer[City = "New York"]]'
+      ],
+      correct: 0,
+      explanation: 'The correct syntax for following associations in XPath is AssociationName/AttributeName.'
+    },
+    {
+      id: 38,
+      topic: 'Page design with Atlas UI',
+      question: 'What is the benefit of using responsive design in Atlas UI?',
+      options: [
+        'Faster loading times',
+        'Better database performance',
+        'Optimal display across different screen sizes',
+        'Enhanced security'
+      ],
+      correct: 2,
+      explanation: 'Responsive design ensures the application displays optimally on various screen sizes and devices.'
+    },
+    {
+      id: 39,
+      topic: 'Sub-microflows',
+      question: 'What is the maximum number of parameters a sub-microflow can have?',
+      options: [
+        '5 parameters',
+        '10 parameters',
+        'No practical limit',
+        '20 parameters'
+      ],
+      correct: 2,
+      explanation: 'There is no practical limit to the number of parameters a sub-microflow can have in Mendix.'
+    },
+    {
+      id: 40,
+      topic: 'Rules',
+      question: 'Can Rules have parameters?',
+      options: [
+        'No, Rules cannot have parameters',
+        'Yes, Rules can have parameters',
+        'Only Boolean parameters',
+        'Only String parameters'
+      ],
+      correct: 1,
+      explanation: 'Rules can have parameters of various types, making them more flexible and reusable.'
+    },
+    {
+      id: 41,
+      topic: 'System members',
+      question: 'Which system member contains a unique identifier for each entity instance?',
+      options: [
+        'createdDate',
+        'owner',
+        'id',
+        'changedBy'
+      ],
+      correct: 2,
+      explanation: 'The "id" system member contains a unique identifier (usually a GUID) for each entity instance.'
+    },
+    {
+      id: 42,
+      topic: 'List operations',
+      question: 'What does the "Intersect" list operation do?',
+      options: [
+        'Combines two lists',
+        'Returns elements that exist in both lists',
+        'Removes elements from a list',
+        'Sorts a list'
+      ],
+      correct: 1,
+      explanation: 'Intersect returns only the elements that exist in both input lists.'
+    },
+    {
+      id: 43,
+      topic: 'Client notifications',
+      question: 'What is the difference between "Show message" and "Validation feedback"?',
+      options: [
+        'They are the same',
+        'Show message is for general notifications, validation feedback is for form validation',
+        'Show message is for errors only',
+        'Validation feedback is for success messages only'
+      ],
+      correct: 1,
+      explanation: 'Show message is for general user notifications, while validation feedback is specifically for form field validation.'
+    },
+    {
+      id: 44,
+      topic: 'Multi-lingual front-end',
+      question: 'How can you dynamically change the language in a Mendix application?',
+      options: [
+        'It\'s not possible',
+        'Using the "Change language" action in microflows',
+        'Only through browser settings',
+        'Only at application startup'
+      ],
+      correct: 1,
+      explanation: 'The "Change language" action in microflows allows dynamic language switching during runtime.'
+    },
+    {
+      id: 45,
+      topic: 'Anonymous users',
+      question: 'Can anonymous users create data in the database?',
+      options: [
+        'Never',
+        'Only if their role has create permissions for specific entities',
+        'Always',
+        'Only temporary data'
+      ],
+      correct: 1,
+      explanation: 'Anonymous users can create data if their assigned role has the appropriate create permissions for specific entities.'
+    },
+    {
+      id: 46,
+      topic: 'Security',
+      question: 'What is the purpose of module security in Mendix?',
+      options: [
+        'To encrypt data',
+        'To control access to microflows, pages, and entities within a module',
+        'To manage user passwords',
+        'To handle SSL certificates'
+      ],
+      correct: 1,
+      explanation: 'Module security controls access to various elements (microflows, pages, entities) within a specific module.'
+    },
+    {
+      id: 47,
+      topic: 'Project roles & responsibilities',
+      question: 'Who typically handles the deployment and DevOps aspects of a Mendix project?',
+      options: [
+        'Business Engineer',
+        'End User',
+        'DevOps Engineer or Technical Lead',
+        'Scrum Master'
+      ],
+      correct: 2,
+      explanation: 'DevOps Engineers or Technical Leads typically handle deployment, CI/CD, and infrastructure aspects.'
+    },
+    {
+      id: 48,
+      topic: 'Project directory structure',
+      question: 'What is stored in the "userlib" folder of a Mendix project?',
+      options: [
+        'User-created pages',
+        'Custom Java libraries and JAR files',
+        'User documentation',
+        'User roles and permissions'
+      ],
+      correct: 1,
+      explanation: 'The userlib folder contains custom Java libraries and JAR files used by the application.'
+    },
+    {
+      id: 49,
+      topic: 'XPath constraints',
+      question: 'Which XPath function returns the number of days between two dates?',
+      options: [
+        'dateDiff()',
+        'daysBetween()',
+        'calculateDays()',
+        'daysFromNowOn()'
+      ],
+      correct: 1,
+      explanation: 'daysBetween() is the XPath function that calculates the number of days between two date values.'
+    },
+    {
+      id: 50,
+      topic: 'Page design with Atlas UI',
+      question: 'What is the purpose of Atlas UI design properties?',
+      options: [
+        'To define database relationships',
+        'To customize the appearance and behavior of UI elements',
+        'To manage user authentication',
+        'To configure server settings'
+      ],
+      correct: 1,
+      explanation: 'Atlas UI design properties allow customization of the appearance and behavior of UI elements.'
+    },
+    {
+      id: 51,
+      topic: 'Security',
+      question: 'What is the difference between module roles and user roles?',
+      options: [
+        'They are the same thing',
+        'Module roles define permissions within a module, user roles are assigned to actual users',
+        'Module roles are for developers only',
+        'User roles are temporary'
+      ],
+      correct: 1,
+      explanation: 'Module roles define permissions within a module, while user roles are assigned to actual users and can include multiple module roles.'
+    },
+    {
+      id: 52,
+      topic: 'List operations',
+      question: 'What is the purpose of the "Sort list" activity?',
+      options: [
+        'To remove duplicates',
+        'To arrange list items in a specific order',
+        'To filter list items',
+        'To count list items'
+      ],
+      correct: 1,
+      explanation: 'The "Sort list" activity arranges list items in ascending or descending order based on specified attributes.'
+    },
+    {
+      id: 53,
+      topic: 'Sub-microflows',
+      question: 'What is the return type of a sub-microflow that doesn\'t explicitly return a value?',
+      options: [
+        'Boolean',
+        'String',
+        'Nothing (void)',
+        'Integer'
+      ],
+      correct: 2,
+      explanation: 'Sub-microflows that don\'t explicitly return a value have no return type (void).'
+    },
+    {
+      id: 54,
+      topic: 'System members',
+      question: 'What data type is the "id" system member?',
+      options: [
+        'Integer',
+        'String',
+        'Long',
+        'AutoNumber'
+      ],
+      correct: 2,
+      explanation: 'The "id" system member is of type Long and contains a unique identifier for each entity instance.'
+    },
+    {
+      id: 55,
+      topic: 'Client notifications',
+      question: 'Can you customize the appearance of message dialogs in Mendix?',
+      options: [
+        'No, they are fixed',
+        'Yes, through CSS and theming',
+        'Only the text content',
+        'Only the buttons'
+      ],
+      correct: 1,
+      explanation: 'Message dialogs can be customized through CSS styling and theming options in Mendix.'
+    },
+    {
+      id: 56,
+      topic: 'Multi-lingual front-end',
+      question: 'What happens if a text constant is not translated for a specific language?',
+      options: [
+        'The application crashes',
+        'An error is displayed',
+        'The default language text is used',
+        'An empty string is shown'
+      ],
+      correct: 2,
+      explanation: 'If a text constant is not translated for a specific language, the default language text is used as a fallback.'
+    },
+    {
+      id: 57,
+      topic: 'Anonymous users',
+      question: 'How many anonymous user sessions can be active simultaneously?',
+      options: [
+        'Only one',
+        'Up to 10',
+        'No limit (subject to server capacity)',
+        'Up to 100'
+      ],
+      correct: 2,
+      explanation: 'There is no inherent limit to anonymous user sessions, though server capacity and licensing may apply.'
+    },
+    {
+      id: 58,
+      topic: 'Rules',
+      question: 'In which context can Rules NOT be used?',
+      options: [
+        'In conditional formatting',
+        'In validation rules',
+        'In database triggers',
+        'In microflow decisions'
+      ],
+      correct: 2,
+      explanation: 'Rules cannot be used in database triggers as they are evaluated at the application level, not the database level.'
+    },
+    {
+      id: 59,
+      topic: 'Project directory structure',
+      question: 'What is the purpose of the "deployment" folder in a Mendix project?',
+      options: [
+        'To store source code',
+        'To store deployment artifacts and configuration',
+        'To store user documentation',
+        'To store database scripts'
+      ],
+      correct: 1,
+      explanation: 'The deployment folder contains deployment artifacts and configuration files needed for application deployment.'
+    },
+    {
+      id: 60,
+      topic: 'XPath constraints',
+      question: 'Which XPath expression checks if a DateTime attribute is within the current month?',
+      options: [
+        '[month-from-dateTime(DateAttribute) = month-from-dateTime(now())]',
+        '[DateAttribute = currentMonth()]',
+        '[month(DateAttribute) = month(now())]',
+        '[DateAttribute in currentMonth()]'
+      ],
+      correct: 0,
+      explanation: 'The month-from-dateTime() function extracts the month from a DateTime value for comparison.'
+    }
+  ];
